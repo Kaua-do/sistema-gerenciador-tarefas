@@ -1,0 +1,24 @@
+RELATÓRIO DE TAREFAS - Kauã
+==================================================
+
+ID: e41e4a
+Título: Passear
+Descrição: 
+Status: Pendente
+Prioridade: 1
+Prazo: 27/05/2026
+--------------------------------------------------
+ID: bb1f36
+Título: Correr
+Descrição: Preciso correr 10km hoje
+Status: Pendente
+Prioridade: 2
+Prazo: 26/05/2026
+--------------------------------------------------
+ID: 300126
+Título: Água
+Descrição: Beber 2L de água
+Status: Concluida
+Prioridade: 3
+Prazo: 26/05/2026
+--------------------------------------------------
