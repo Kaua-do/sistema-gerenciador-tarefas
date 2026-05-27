@@ -1,7 +1,8 @@
+.venv/
 __pycache__/
 .idea/
-.venv/
-venv/
 *.pyc
-save/usuarios.json
+repositories/save/
+exports/
 logs/
+pytest_cache/
