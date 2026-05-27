@@ -1,8 +1,8 @@
-.venv/
-__pycache__/
-.idea/
-*.pyc
-repositories/save/
-exports/
+save/
 logs/
-pytest_cache/
+exports/
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
