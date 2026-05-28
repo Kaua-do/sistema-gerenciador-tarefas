@@ -5,7 +5,7 @@ from core.enums import (
     StatusTarefa
 )
 import pytest
-from ProjetoNivel4.repositories.usuario_repository import UsuarioRepository
+from repositories.usuario_repository import UsuarioRepository
 
 def fake_salvar(usuario):
     pass
