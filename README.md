@@ -1,45 +1,50 @@
-# Sistema de Gerenciamento de Tarefas
+# 📋 Sistema de Gerenciamento de Tarefas
 
-Projeto de terminal desenvolvido em Python utilizando Programação Orientada a Objetos (POO), autenticação segura com bcrypt, persistência em JSON, dashboard interativo, filtros e exportação de tarefas.
+Sistema de gerenciamento de tarefas desenvolvido em Python utilizando Programação Orientada a Objetos, persistência em JSON, autenticação de usuários e interface no terminal com Rich.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-- Cadastro e login de usuários
-- Senhas criptografadas com bcrypt
-- CRUD completo de tarefas
-- Dashboard com estatísticas
-- Filtros por:
-  - pendentes
-  - concluídas
-  - prioridade
-  - prazo
-  - vencidas
-- Busca por título
-- Exportação para TXT, CSV e JSON
-- Sistema de logs
-- Testes automatizados com pytest
+- ✅ Cadastro e login de usuários
+- 🔐 Senhas protegidas com bcrypt
+- 📌 Criar tarefas
+- ✏️ Editar tarefas
+- 🗑️ Remover tarefas
+- ✅ Concluir tarefas
+- 📅 Definir prazo
+- ⚠️ Detectar tarefas vencidas
+- 🔎 Buscar tarefas por título
+- 📊 Dashboard de produtividade
+- 🎯 Filtro por prioridade
+- 📂 Exportação de tarefas
+- 📝 Sistema de logs
+- 🧪 Testes automatizados com pytest
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
-- Python
+- Python 3
 - Rich
 - Pytest
 - Bcrypt
 - JSON
+- Programação Orientada a Objetos (POO)
 
-## Estrutura do projeto
+## 📂 Estrutura do projeto
 
 ```txt
-core/
-services/
-repositories/
-validators/
-menus/
-view/
-tests/
+ProjetoNivel4/
+│── core/
+│── services/
+│── repositories/
+│── validators/
+│── views/
+│── menus/
+│── tests/
+│── save/
+│── exports/
+│── main.py
 ```
 
-## Como executar
+## ▶️ Como executar
 
 Clone o projeto:
 
@@ -47,7 +52,13 @@ Clone o projeto:
 git clone URL_DO_REPOSITORIO
 ```
 
-Instale as dependências:
+Entre na pasta:
+
+```bash
+cd ProjetoNivel4
+```
+
+Instale dependências:
 
 ```bash
 pip install -r requirements.txt
@@ -59,22 +70,19 @@ Execute:
 python main.py
 ```
 
-## Testes
-
-Para executar os testes:
+## 🧪 Rodando testes
 
 ```bash
 pytest
 ```
 
-## Conceitos aplicados
+## 📌 Aprendizados
+
+Projeto desenvolvido para praticar:
 
 - Programação Orientada a Objetos
-- Repository Pattern
-- Service Layer
-- Enum
-- Persistência de dados
-- Criptografia de senha
-- Tratamento de exceções
 - Arquitetura em camadas
+- Persistência de dados
+- Refatoração
 - Testes automatizados
+- Organização profissional de projetos Python
