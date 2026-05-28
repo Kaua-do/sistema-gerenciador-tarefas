@@ -6,8 +6,7 @@ from uuid import uuid4
 import os
 import csv
 import json
-
-from ProjetoNivel4.repositories.usuario_repository import UsuarioRepository
+from repositories.usuario_repository import UsuarioRepository
 
 
 class TaskService:
