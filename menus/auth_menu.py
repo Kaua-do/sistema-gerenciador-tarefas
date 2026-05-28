@@ -1,8 +1,8 @@
 from rich import print
-from ProjetoNivel4.validators.input_validator import InputValidator
-from ProjetoNivel4.services.auth_service import AuthService
-from ProjetoNivel4.menus.task_menu import TaskMenu
-from ProjetoNivel4.services.session_service import SessionLogger
+from validators.input_validator import InputValidator
+from services.auth_service import AuthService
+from menus.task_menu import TaskMenu
+from services.session_service import SessionLogger
 
 class AuthMenu:
     def mostrar_menu(self):

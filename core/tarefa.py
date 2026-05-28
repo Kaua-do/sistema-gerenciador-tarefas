@@ -1,5 +1,5 @@
 from datetime import datetime
-from ProjetoNivel4.core.enums import StatusTarefa, Prioridade
+from core.enums import StatusTarefa, Prioridade
 
 
 class Tarefa():

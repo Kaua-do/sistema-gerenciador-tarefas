@@ -1,5 +1,5 @@
-from ProjetoNivel4.repositories.usuario_repository import UsuarioRepository
-from ProjetoNivel4.core.usuario import Usuario
+from repositories.usuario_repository import UsuarioRepository
+from core.usuario import Usuario
 from uuid import uuid4
 import bcrypt
 

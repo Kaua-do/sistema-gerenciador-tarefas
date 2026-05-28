@@ -1,7 +1,6 @@
 from datetime import datetime
-
-from ProjetoNivel4.core import usuario
-from ProjetoNivel4.services.logger_service import LoggerService
+from core import usuario
+from services.logger_service import LoggerService
 
 class SessionLogger:
     usuario = None

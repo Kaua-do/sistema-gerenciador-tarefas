@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from ProjetoNivel4.core.usuario import Usuario
+from core.usuario import Usuario
 
 class UsuarioRepository:
 

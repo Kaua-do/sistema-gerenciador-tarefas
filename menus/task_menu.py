@@ -1,11 +1,11 @@
 from rich import print
-from ProjetoNivel4.validators.input_validator import InputValidator
-from ProjetoNivel4.views.task_view import TaskView
-from ProjetoNivel4.services.task_service import TaskService
-from ProjetoNivel4.services.logger_service import LoggerService
-from ProjetoNivel4.core.enums import (Prioridade)
-from ProjetoNivel4.views.menuview import MenuView
-from ProjetoNivel4.core.tarefa import Tarefa
+from validators.input_validator import InputValidator
+from views.task_view import TaskView
+from services.task_service import TaskService
+from services.logger_service import LoggerService
+from core.enums import (Prioridade)
+from views.menuview import MenuView
+
 
 class TaskMenu:
     def __init__(self, usuario):

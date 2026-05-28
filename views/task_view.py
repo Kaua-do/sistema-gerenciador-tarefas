@@ -1,7 +1,7 @@
 from rich import print
 from rich.table import Table
 from rich.panel import Panel
-from ProjetoNivel4.core.enums import (
+from core.enums import (
     StatusTarefa,
     Prioridade
 )

@@ -1,7 +1,7 @@
 from datetime import datetime
-from ProjetoNivel4.core.tarefa import Tarefa
-from ProjetoNivel4.core.usuario import Usuario
-from ProjetoNivel4.core.enums import *
+from core.tarefa import Tarefa
+from core.usuario import Usuario
+from core.enums import *
 from uuid import uuid4
 import os
 import csv

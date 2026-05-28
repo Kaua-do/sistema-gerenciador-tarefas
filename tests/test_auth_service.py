@@ -1,5 +1,5 @@
 import pytest
-from ProjetoNivel4.services.auth_service import AuthService
+from services.auth_service import AuthService
 
 def test_registrar_usuario():
 

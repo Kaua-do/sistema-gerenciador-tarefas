@@ -1,4 +1,4 @@
-from ProjetoNivel4.core.tarefa import Tarefa
+from core.tarefa import Tarefa
 
 
 class Usuario():

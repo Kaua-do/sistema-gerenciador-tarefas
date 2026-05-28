@@ -1,6 +1,6 @@
-from ProjetoNivel4.core.usuario import Usuario
-from ProjetoNivel4.services.task_service import TaskService
-from ProjetoNivel4.core.enums import (
+from core.usuario import Usuario
+from services.task_service import TaskService
+from core.enums import (
     Prioridade,
     StatusTarefa
 )
