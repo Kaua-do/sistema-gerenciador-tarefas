@@ -55,7 +55,7 @@ git clone URL_DO_REPOSITORIO
 Entre na pasta:
 
 ```bash
-cd ProjetoNivel4
+cd sistema-gerenciador-tarefas
 ```
 
 Instale dependências:
